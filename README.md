@@ -8,7 +8,7 @@ To get started set up an account on [Kinde](https://app.kinde.com/register). Thi
 
 Clone this repo and install dependencies by running `npm i`
 
-Make a copy of `.env.sample` and name it simply `.env`. Replacing the following values from the Kinde `Settings -> Applications -> Backend app` page.
+Make a copy of `.env.example` and name it simply `.env`. Replacing the following values from the Kinde `Settings -> Applications -> Backend app` page.
 
 ```
 NUXT_AUTH_DOMAIN="https://<your_kinde_subdomain>.kinde.com"
