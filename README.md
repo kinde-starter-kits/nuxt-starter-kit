@@ -11,9 +11,9 @@ Clone this repo and install dependencies by running `npm i`
 Make a copy of `.env.sample` and name it simply `.env`. Replacing the following values from the Kinde `Settings -> Applications -> Backend app` page.
 
 ```
-NUXT_AUTH_DOMAIN="https://<your_kinde_subdomain>.kinde.com",
-NUXT_CLIENT_ID="<your_kinde_client_id>",
-NUXT_CLIENT_SECRET="<your_kinde_client_secret>",
+NUXT_AUTH_DOMAIN="https://<your_kinde_subdomain>.kinde.com"
+NUXT_CLIENT_ID="<your_kinde_client_id>"
+NUXT_CLIENT_SECRET="<your_kinde_client_secret>"
 ```
 
 ## Set your Callback and Logout URLs
