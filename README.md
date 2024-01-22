@@ -22,7 +22,7 @@ Your user will be redirected to Kinde to authenticate. After they have logged in
 
 You need to specify in Kinde which url you would like your user to be redirected to in order to authenticate your app.
 
-On the `Settings -> Applications -> Backend app` page set `Allowed callback URLs` to `http://localhost:3000/api/auth/callback`
+On the `Settings -> Applications -> Backend app` page set `Allowed callback URLs` to `http://localhost:3000/api/callback`
 
 > Important! This is required for your users to successfully log in to your app.
 
