@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "rimraf .output && npx nuxt dev",
+    "prod": "npx nuxt start",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -15,6 +16,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@nuxtjs/kinde": "^0.1.6"
+    "@nuxtjs/kinde": "^0.1.6",
+    "rimraf": "^6.0.1"
   }
 }
