@@ -10,6 +10,7 @@ dist
 node_modules
 
 # Logs
+temp_auto_push.bat
 logs
 *.log
 
@@ -22,3 +23,5 @@ logs
 .env
 .env.*
 !.env.example
+.gitignore
+branch_structure.json
